@@ -247,6 +247,20 @@ p{ margin: 0 0 1em; color: var(--ink-soft); }
 .beneficios-grid h3{ font-family: var(--f-body); font-weight: 700; font-size: 17px; margin-bottom: 8px; text-transform: none; }
 .beneficios-grid p{ color: rgba(245,242,234,.68); font-size: 14.5px; margin: 0; }
 
+.logo-frame-wrap{ margin-top: 48px; margin-bottom: 0; }
+.logo-frame{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--paper);
+  border: 1px solid var(--gold);
+  /*border-radius: var(--radius);*/
+  border-radius: 10px;
+  padding: 22px 36px;
+}
+.logo-frame img{ display: block; width: 220px; height: auto; }
+@media (min-width: 700px){ .logo-frame img{ width: 260px; } }
+
 /* ==========================================================================
    Productos
    ========================================================================== */
